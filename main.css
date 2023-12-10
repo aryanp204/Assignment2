@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(to right,#9ee39f, #3da64b,#035f10);
+    color: white;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.navbar {
+    background: #333;
+}
+
+.navbar ul {
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar li {
+    position: relative;
+    padding: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    color: #00bcd4;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbar li:not(:hover) .dropdown-content {
+    display: none;
+}
+
+.aside-container {
+    background-image: url('images/asidebg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.aside-container h2 {
+    margin-top: 0;
+}
+
+.aside-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.aside-container li {
+    margin: 10px 0;
+}
+
+.aside-container a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.aside-container a:hover {
+    color: #00bcd4;
+}
+
+.aside-container .aside-background {
+    background-image: url('aside-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.footer {
+    background: linear-gradient(to right, #9ee39f, #3da64b,#035f10);
+    color: white;
+    text-align: center;
+    padding: 0px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}

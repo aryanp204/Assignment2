@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Contact</title>
+</head>
+<body>
+  <header class="header">
+    <h1>Mukesh Ambani</h1>
+</header>
+    <div class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li class="dropdown">
+                <a href="#">Gallery</a>
+                <ul class="dropdown-content">
+                    <li><a href="gallery.html">Image 1</a></li>
+                    <li><a href="gallery.html">Image 2</a></li>
+                    <li><a href="gallery.html">Image 3</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown">
+                <a href="media.html">Media</a>
+                <ul class="dropdown-content">
+                    <li><a href="media.html">Video</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <aside class="aside-container">
+    <h2>Article Links</h2>
+      <ul>
+          <li><a href="https://www.forbes.com/sites/forbespr/2023/10/11/mukesh-ambani-reclaims-top-spot-on-forbes-list-of-indias-100-richest/?sh=2d44126e5684">Article 1</a></li>
+          <li><a href="https://www.forbes.com/sites/naazneenkarmali/2023/10/11/indias-100-richest-2023-a-dramatic-reshuffle-in-the-top-ranks-keeps-collective-wealth-flat/?sh=7844e4ee3984">Article 2</a></li>
+          <li><a href="https://www.forbes.com/sites/tylerroush/2023/10/06/indian-billionaires-adani-and-maran-reportedly-involved-in-acquiring-disneys-india-based-assets/?sh=4704ec9569af">Article 3</a></li>
+          <li><a href="https://www.forbes.com/sites/gloriaharaito/2023/08/28/asias-richest-man-mukesh-ambanis-three-children-appointed-to-reliance-board/?sh=25c4f17530d4">Article 4</a></li>
+      </ul>
+      <h2>Contact</h2>
+    <form action="">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required autofocus>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" required>
+        </div>
+        <fieldset>
+            <legend>Why you want to contact ?</legend>
+            <input type="radio" name="sec" value="4" id="4" required>
+            <label for="4">More about Mukesh ambani</label>
+            <br>
+            <input type="radio" name="sec" value="5" id="5">
+            <label for="5">More about Mukesh ambani family</label>
+            <br>
+            <input type="radio" name="sec" value="8" id="8" checked>
+            <label for="8">More about mukesh ambani family</label>
+            <br>
+
+        </fieldset>
+        
+        <div>
+            <label for="help">What do you need help ?</label>
+            <select name="help" id="help">
+                <option value="" selected>Select</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="both">Both (HTML & CSS)</option>
+            </select>
+        </div>
+        <div>
+            <label for="comment">Comment</label>
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <input type="checkbox" name="human" value="true" id="human" required>
+            <label for="human">I am human</label>
+        </div>
+        <div>
+            <input type="submit" name="submit" value="Submit" id="submit">
+            
+        </div>
+    </form>
+      <div class="aside-background"></div>
+  </aside>
+
+    
+</main>
+  <footer class="footer">
+    <p>&copy; 2023 Aryan Patel. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
